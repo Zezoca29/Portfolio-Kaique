@@ -1,0 +1,30 @@
+.languages{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.languages li{
+    padding: 1rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+
+.languages li::before {
+    content: "";
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url('/assets/bootstrap-icons/icons/check-all.svg');
+    margin-right: .5rem;
+}
